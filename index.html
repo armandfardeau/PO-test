@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Test PO</title>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="./main.css">
+  </head>
+  <body>
+    <div>
+      <h3>Step 1 - Sign in</h3>
+      <input id="sign_in_url" type="text" name="url" value="http://localhost:3000/api/v1" placeholder="url">
+      <input id="sign_in_email" type="text" name="email" value="phenomenal.organizer@example.org" placeholder="email">
+      <input id="sign_in_password" type="text" name="password" value="phenomenalorganizer123456" placeholder="password">
+      <button id="sign_in_submit" value="submit">Submit</button>
+      <br/>
+      <div id="sign_in_response" class="hidden"></div>
+      <hr/>
+    </div>
+<div>
+      <h3>Step 2 - Edit user</h3>
+      <input id="edit_user_name" type="text" name="name" value="Pomme" placeholder="name">
+      <input id="edit_user_firstname" type="text" name="firstname" value="John" placeholder="firstname">
+      <input id="edit_user_nickname" type="text" name="nickname" value="JD" placeholder="nickname">
+      <input id="edit_user_zipcode" type="text" name="zipcode" value="92100" placeholder="zipcode">
+      <input id="edit_user_birthdate" type="text" name="birthdate" value="Mon, 12 Jun 2000" placeholder="birthdate">
+      <button id="edit_user_submit" value="submit">Submit</button>
+      <br/>
+      <div id="edit_user_response" class="hidden"></div>
+    </div>
+    </div>
+  </body>
+</html>

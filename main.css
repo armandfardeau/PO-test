@@ -1,0 +1,37 @@
+body{
+  width: 100vw;
+}
+body > div{
+  width: 60%;
+  margin: auto;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+}
+body > div > input{
+  margin: 2em 0;
+  padding: 1em;
+  border-radius: .5em;
+}
+button{
+  padding: 1em;
+  border-radius: .5em;
+}
+
+button:hover{
+  color: white;
+  background-color: grey;
+}
+
+p{
+  word-break: break-word;
+}
+
+#edit_user_response, #sign_in_response {
+  padding: 1em;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.2);
+  border-radius: .5em;
+}
+.hidden{
+  display: none;
+}
